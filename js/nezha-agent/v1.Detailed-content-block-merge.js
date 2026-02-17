@@ -1,4 +1,3 @@
-<script>
     const selectorButton = '#root > div.flex.min-h-screen.w-full.flex-col > main > div.mx-auto.w-full.max-w-5xl.px-0.flex.flex-col.gap-4.server-info > section.flex.items-center.my-2.w-full > div.flex.justify-center.w-full.max-w-\\[200px\\] > div > div > div.relative.cursor-pointer.rounded-3xl.px-2\\.5.py-\\[8px\\].text-\\[13px\\].font-semibold.transition-all.duration-500.text-stone-400.dark\\:text-stone-500';
     const selectorSection = '#root > div.flex.min-h-screen.w-full.flex-col > main > div.mx-auto.w-full.max-w-5xl.px-0.flex.flex-col.gap-4.server-info > section.flex.items-center.my-2.w-full';
     const containerPath = '#root > div.flex.min-h-screen.w-full.flex-col > main > div.mx-auto.w-full.max-w-5xl.px-0.flex.flex-col.gap-4.server-info';
@@ -72,4 +71,3 @@
     // 执行
     startObserver();
     setInterval(injectLayout, 30000);
-</script>
